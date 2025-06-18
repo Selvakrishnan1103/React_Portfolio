@@ -74,7 +74,7 @@ export default function Home() {
               <>
                 <div className="flex items-center gap-4 mb-4">
                   <Image
-                    src="/Selva_Mar.jpg"
+                    src="/selva_Mar.jpg"
                     alt="Selva Krishnan"
                     width={60}
                     height={60}
