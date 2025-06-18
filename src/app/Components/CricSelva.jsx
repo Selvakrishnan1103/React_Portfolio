@@ -20,7 +20,7 @@ export default function CricSelvaProject() {
         >
           <div className="relative w-72 h-72 rounded-xl overflow-hidden shadow-xl border-4 border-cyan-400">
             <Image
-              src="/cricselva_logo.png" // Replace with your actual CricSelva logo
+              src="/CricSelva_Logo.png" // Replace with your actual CricSelva logo
               alt="CricSelva Logo"
               fill
               className="object-contain p-4"
