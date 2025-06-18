@@ -6,14 +6,14 @@ import Link from "next/link";
 const projects = [
   {
     name: "EduHush",
-    logo: "/eduhush_logo.png", 
+    logo: "/Eduhush_Logo.png", 
     description: "An AI-powered educational platform that filters non-educational videos.",
     stack: "Next.js, Flask, MongoDB, Tailwind CSS",
     link: "/projects/eduhush"
   },
   {
     name: "CricSelva",
-    logo: "/cricselva_logo.png",
+    logo: "/CricSelva_Logo.png",
     description: "Web-based cricket match management system using Supabase and React.",
     stack: "React.js, Supabase, Tailwind CSS",
     link: "/projects/cricselva"
@@ -27,7 +27,7 @@ const projects = [
   },
   {
     name: "GPA Calculator",
-    logo: "/gpa_logo.webp",
+    logo: "/GPA_Logo.webp",
     description: "Simple GPA & CGPA calculator for students with responsive UI.",
     stack: "HTML, CSS, JS",
     link: "/projects/gpacalculator"
