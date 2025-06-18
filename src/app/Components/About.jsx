@@ -18,7 +18,7 @@ export default function About() {
 
       <section className="max-w-5xl mx-auto mt-20 flex flex-col md:flex-row items-center gap-10">
         <div className="relative lg:w-112 w-48 h-48 rounded-full overflow-hidden border-4 border-cyan-400 shadow-lg hover:scale-105 transition-transform duration-300">
-          <Image src="/selva_Mar.jpg" alt="Profile" fill className="object-cover" />
+          <Image src="/selva_Mar.JPG" alt="Profile" fill className="object-cover" />
         </div>
 
         <div className="space-y-4 text-gray-300 text-base sm:text-lg">
