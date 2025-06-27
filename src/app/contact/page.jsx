@@ -1,3 +1,4 @@
+
 export const metadata = {
   title: "Contact | Selva Krishnan",
   description: "Get in touch with Selva Krishnan. Whether you have a project in mind or just want to connect, feel free to reach out.",
@@ -18,9 +19,9 @@ export const metadata = {
   },
 };
 
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
-import Header from "./Components/Header";
+import Contact from "@/app/Components/Contact";
+import Footer from "@/app/Components/Footer";
+import Header from "@/app/Components/Header";
 
 export default function ContactPage() {
   return (

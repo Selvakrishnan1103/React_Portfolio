@@ -1,11 +1,19 @@
 
 export const metadata = {
   title: "About | Selva Krishnan",
-  description: "Learn more about Selva Krishnan, a passionate full-stack developer who builds modern web applications using React, Next.js, Flask, and more.",
-  keywords: ["Selva Krishnan", "About", "Portfolio", "Full Stack Developer", "Next.js Developer"],
+  description:
+    "Learn more about Selva Krishnan, a passionate full-stack developer who builds modern web applications using React, Next.js, Flask, and more.",
+  keywords: [
+    "Selva Krishnan",
+    "About",
+    "Portfolio",
+    "Full Stack Developer",
+    "Next.js Developer",
+  ],
   openGraph: {
     title: "About | Selva Krishnan",
-    description: "Explore the background, skills, and journey of Selva Krishnan as a developer.",
+    description:
+      "Explore the background, skills, and journey of Selva Krishnan as a developer.",
     url: "https://www.selvakrishnan.in/about",
     images: [
       {
@@ -19,9 +27,9 @@ export const metadata = {
   },
 };
 
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import About from "./Components/About";
+import Header from "@/app/Components/Header";
+import Footer from "@/app/Components/Footer";
+import About from "@/app/Components/About";
 
 export default function AboutPage() {
   return (
