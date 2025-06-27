@@ -64,7 +64,7 @@ export default function Home() {
       </section>
 
       {/* Section Preview Cards */}
-      <section className="w-full max-w-6xl grid md:grid-cols-2 gap-10 mt-10 px-4">
+      <section className="container mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-8 mt-10 sm:px-1 px-1">
         {/* Card Template */}
         {[
           {

@@ -7,7 +7,6 @@ export default function About() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-900 to-gray-950 text-white px-6 py-24 font-sans">
       
-      {/* Title */}
       <section className="max-w-5xl mx-auto text-center space-y-6">
         <h1 className="text-5xl sm:text-6xl font-extrabold text-cyan-400 leading-tight">
           About Me
@@ -17,7 +16,6 @@ export default function About() {
         </p>
       </section>
 
-      {/* Profile */}
       <section className="max-w-5xl mx-auto mt-20 flex flex-col md:flex-row items-center gap-10">
         <div className="relative lg:w-112 w-48 h-48 rounded-full overflow-hidden border-4 border-cyan-400 shadow-lg hover:scale-105 transition-transform duration-300">
           <Image src="/Selva_Mar.jpg" alt="Profile" fill className="object-cover" />
@@ -36,7 +34,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Tech Stack */}
       <section className="max-w-5xl mx-auto mt-20">
         <h2 className="text-3xl font-semibold text-cyan-300 mb-6">🛠 Tech Stack</h2>
         <ul className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-gray-300 text-lg list-disc list-inside">
@@ -51,7 +48,6 @@ export default function About() {
         </ul>
       </section>
 
-      {/* Projects & Experience */}
       <section className="max-w-5xl mx-auto mt-20">
         <h2 className="text-3xl font-semibold text-cyan-300 mb-6">💼 Projects & Experience</h2>
         <ul className="text-gray-300 space-y-3 text-lg list-disc list-inside">
@@ -62,7 +58,6 @@ export default function About() {
         </ul>
       </section>
 
-      {/* Personal Interests */}
       <section className="max-w-5xl mx-auto mt-20">
         <h2 className="text-3xl font-semibold text-cyan-300 mb-6">🎯 Beyond Coding</h2>
         <p className="text-gray-300 text-lg">
@@ -70,14 +65,12 @@ export default function About() {
         </p>
       </section>
 
-      {/* Quote */}
       <section className="max-w-5xl mx-auto mt-20 text-center">
         <p className="italic text-gray-400 text-lg border-l-4 border-cyan-400 pl-4 mx-auto max-w-2xl">
           “Code is like humor. When you have to explain it, it’s bad.” — Cory House
         </p>
       </section>
 
-      {/* Call to Action */}
       <section className="mt-20 text-center flex flex-col sm:flex-row justify-center gap-4">
         <a
           href="/Selva_Krishnan_NextJS_Developer.pdf"
