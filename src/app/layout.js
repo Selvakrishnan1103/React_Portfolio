@@ -1,6 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Head from "next/head"; // Optional if you want to include global <head> tags
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,14 +11,29 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const metadata = {
+  title: "Selva Krishnan Portfolio",
+  description: "Welcome to my personal portfolio showcasing my skills, projects, and contact details.",
+  keywords: ["Selva Krishnan", "Portfolio", "Full Stack Developer", "Next.js", "React", "Projects"],
+  openGraph: {
+    title: "Selva Krishnan Portfolio",
+    description: "Explore the work and projects of Selva Krishnan, full stack developer.",
+    url: "https://www.selvakrishnan.in",
+    images: [
+      {
+        url: "/selva_Mar.JPG",
+        width: 800,
+        height: 600,
+        alt: "Selva Krishnan",
+      },
+    ],
+    type: "website",
+  },
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/selva_Mar.JPG" />
-      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
