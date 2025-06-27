@@ -50,7 +50,7 @@ export default function Footer() {
               <Github />
             </a>
             <a
-              href="mailto:selvakrish601@email.com"
+              href="mailto:selvakrish601@gmail.com"
               aria-label="Email"
               className="hover:text-cyan-400 transition"
             >

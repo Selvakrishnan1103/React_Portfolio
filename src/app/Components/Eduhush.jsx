@@ -20,7 +20,7 @@ export default function EduHushProject() {
         >
           <div className="relative w-72 h-72 rounded-xl overflow-hidden shadow-xl border-4 border-cyan-400">
             <Image
-              src="/eduhush_logo.png" // Replace with your actual logo
+              src="/Eduhush_Logo.png" // Replace with your actual logo
               alt="EduHush Logo"
               fill
               className="object-contain p-4"
